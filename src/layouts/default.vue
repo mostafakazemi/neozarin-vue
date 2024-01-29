@@ -8,7 +8,7 @@
 
 <script>
 import TheHeader from '@/components/TheHeader/index.vue'
-import TheFooter from '@/components/TheHeader/index.vue'
+import TheFooter from '@/components/TheFooter/index.vue'
 
 export default {
   name: 'DefaultLayout',
