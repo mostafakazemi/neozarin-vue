@@ -1,11 +1,9 @@
 <template>
-  <div>
-    <TheHeader />
-    <main>
-      <router-view></router-view>
-    </main>
-    <TheFooter />
-  </div>
+  <TheHeader />
+  <main class="flex-grow">
+    <router-view></router-view>
+  </main>
+  <TheFooter />
 </template>
 
 <script>
