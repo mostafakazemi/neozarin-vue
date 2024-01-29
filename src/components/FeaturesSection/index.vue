@@ -1,5 +1,5 @@
 <template>
-  <section class="text-center flex flex-col items-center gap-y-5">
+  <HomeSectionWrapper>
     <h2>ویژگی‌های نئوزرین</h2>
     <div class="flex flex-col items-center gap-y-5">
       <p>
@@ -32,16 +32,18 @@
         </li>
       </ul>
     </div>
-  </section>
+  </HomeSectionWrapper>
 </template>
 
 <script>
 import IconArrowRight from '@/components/Icons/ArrowRight/index.vue'
+import HomeSectionWrapper from '@/components/Home/Section/index.vue'
 
 export default {
   name: 'FeaturesSection',
 
   components: {
+    HomeSectionWrapper,
     IconArrowRight
   }
 }

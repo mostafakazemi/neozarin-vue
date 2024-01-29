@@ -1,8 +1,8 @@
 <template>
-  <section class="text-center flex flex-col gap-y-5">
+  <HomeSectionWrapper>
     <h2 class="font-black text-2xl">چرا نئوزرین؟</h2>
     <h3>هر آنچه شما لازم دارید در نئوزرین گرد هم آورده‌ایم</h3>
-    <div class="py-10">
+    <div class="py-10 w-full">
       <swiper
         dir="rtl"
         :slides-per-view="2.2"
@@ -29,7 +29,7 @@
         </swiper-slide>
       </swiper>
     </div>
-  </section>
+  </HomeSectionWrapper>
 </template>
 
 <script>
@@ -43,11 +43,13 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/scrollbar'
 import { Pagination, Autoplay } from 'swiper/modules'
+import HomeSectionWrapper from '@/components/Home/Section/index.vue'
 
 export default {
   name: 'WhyNeozarinSection',
 
   components: {
+    HomeSectionWrapper,
     WhyNeozarinSectionItem,
     Swiper,
     SwiperSlide

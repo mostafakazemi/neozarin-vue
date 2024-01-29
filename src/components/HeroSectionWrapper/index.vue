@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col items-center text-center gap-y-5">
+  <HomeSectionWrapper>
     <h1 class="text-4xl font-black">
       شعبه بانکداری
       <span class="text-primary">مجازی</span>
@@ -15,15 +15,16 @@
       <IconArrowRight class="rotate-180" />
     </TheButton>
     <img src="@/assets/images/1.png" alt="نئوزرین" />
-  </section>
+  </HomeSectionWrapper>
 </template>
 
 <script>
 import TheButton from '@/components/uikit/TheButton/index.vue'
 import IconArrowRight from '@/components/Icons/ArrowRight/index.vue'
+import HomeSectionWrapper from '@/components/Home/Section/index.vue'
 
 export default {
   name: 'HeroSection',
-  components: { IconArrowRight, TheButton }
+  components: { HomeSectionWrapper, IconArrowRight, TheButton }
 }
 </script>
