@@ -1,9 +1,14 @@
 <template>
-  <div>this is home page</div>
+  <HeroSection />
+  <FeaturesSection />
 </template>
 
 <script>
+import HeroSection from '@/components/HeroSection/index.vue'
+import FeaturesSection from '@/components/FeaturesSection/index.vue'
+
 export default {
-  name: 'HomePage'
+  name: 'HomePage',
+  components: { FeaturesSection, HeroSection }
 }
 </script>

@@ -1,7 +1,9 @@
 <template>
   <TheHeader />
-  <main class="flex-grow">
-    <router-view></router-view>
+  <main class="flex-grow flex flex-col items-center">
+    <div class="max-w-screen-xl">
+      <router-view></router-view>
+    </div>
   </main>
   <TheFooter />
 </template>

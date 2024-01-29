@@ -8,3 +8,11 @@
 #app {
   @apply flex flex-col min-h-screen;
 }
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+span {
+  font-weight: inherit;
+}

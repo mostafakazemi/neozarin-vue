@@ -1,5 +1,5 @@
 <template>
-  <button :class="[variant]">
+  <button class="flex items-center" :class="[variant]">
     <slot />
   </button>
 </template>
