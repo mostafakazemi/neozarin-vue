@@ -1,33 +1,33 @@
 <template>
-  <section class="text-center flex-col items-center">
-    <div>ویژگی‌های نئوزرین</div>
-    <div class="flex flex-col items-center">
+  <section class="text-center flex flex-col items-center gap-y-5">
+    <h2>ویژگی‌های نئوزرین</h2>
+    <div class="flex flex-col items-center gap-y-5">
       <p>
         با ویژگی‌ها و مزیت‌هایی کم‌نظیر نئوزرین، تجربه متفاوت از بانکداری الکترونیک خلق کرده‌ایم
       </p>
-      <ul class="grid grid-cols-2">
+      <ul class="grid grid-cols-2 gap-10 mt-10">
         <li>
           <div class="flex gap-x-2 items-center">
             <IconArrowRight />
-            <span>امنیت پرداخت</span>
+            <h3>امنیت پرداخت</h3>
           </div>
         </li>
         <li>
           <div class="flex gap-x-2 items-center">
             <IconArrowRight />
-            <span>استفاده آسان</span>
+            <h3>استفاده آسان</h3>
           </div>
         </li>
         <li>
           <div class="flex gap-x-2 items-center">
             <IconArrowRight />
-            <span>پشتیبانی ۲۴ ساعته</span>
+            <h3>پشتیبانی ۲۴ ساعته</h3>
           </div>
         </li>
         <li>
           <div class="flex gap-x-2 items-center">
             <IconArrowRight />
-            <span>کاهش هزینه‌های مدیریت</span>
+            <h3>کاهش هزینه‌های مدیریت</h3>
           </div>
         </li>
       </ul>

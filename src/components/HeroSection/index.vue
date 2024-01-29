@@ -1,5 +1,5 @@
 <template>
-  <section class="flex flex-col items-center text-center">
+  <section class="flex flex-col items-center text-center gap-y-5">
     <h1 class="text-4xl font-black">
       شعبه بانکداری
       <span class="text-primary">مجازی</span>
