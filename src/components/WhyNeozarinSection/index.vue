@@ -5,7 +5,7 @@
     <div class="py-10">
       <swiper
         dir="rtl"
-        :slides-per-view="2.5"
+        :slides-per-view="2.2"
         :space-between="25"
         pagination
         :modules="modules"
@@ -15,6 +15,9 @@
         }"
         centered-slides
       >
+        <swiper-slide>
+          <WhyNeozarinSectionItem />
+        </swiper-slide>
         <swiper-slide>
           <WhyNeozarinSectionItem />
         </swiper-slide>
