@@ -4,7 +4,7 @@
       <IconLogo />
       <span>نئوزرین</span>
     </div>
-    <div class="mr-auto flex gap-x-10">
+    <div class="mr-auto flex gap-x-5">
       <IconLinkedin />
       <IconTwitter />
       <IconInstagram />

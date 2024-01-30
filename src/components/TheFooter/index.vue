@@ -3,6 +3,7 @@
     <SupportSection />
     <CertificateSection class="border-b py-6" />
     <SocialSection />
+    <CopyrightSection />
   </footer>
 </template>
 
@@ -10,9 +11,10 @@
 import SupportSection from '@/components/SupportSection/index.vue'
 import CertificateSection from '@/components/CertificateSection/index.vue'
 import SocialSection from '@/components/SocialSection/index.vue'
+import CopyrightSection from '@/components/CopyrightSection/index.vue'
 
 export default {
   name: 'TheHeader',
-  components: { SocialSection, CertificateSection, SupportSection }
+  components: { CopyrightSection, SocialSection, CertificateSection, SupportSection }
 }
 </script>
