@@ -6,6 +6,7 @@
     <ColleaguesSection />
     <ComingSoonFeaturesSection />
     <FaqSection />
+    <DownloadSection />
   </div>
 </template>
 
@@ -16,10 +17,12 @@ import WhyNeozarinSection from '@/components/WhyNeozarinSection/index.vue'
 import ColleaguesSection from '@/components/ColleaguesSection/index.vue'
 import ComingSoonFeaturesSection from '@/components/ComingSoonFeaturesSection/index.vue'
 import FaqSection from '@/components/FaqSection/index.vue'
+import DownloadSection from '@/components/DownloadSection/index.vue'
 
 export default {
   name: 'HomePage',
   components: {
+    DownloadSection,
     FaqSection,
     ComingSoonFeaturesSection,
     ColleaguesSection,

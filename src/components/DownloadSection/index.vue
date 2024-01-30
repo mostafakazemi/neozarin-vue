@@ -1,0 +1,25 @@
+<template>
+  <HomeSectionWrapper>
+    <div class="flex flex-col md:flex-row">
+      <div class="flex flex-col items-center gap-y-6 p-10 md:items-start">
+        <h2>به خانواده‌ی نئو زرین بپیوندید</h2>
+        <p>با دانلود اپلیکیشن نئوزرین از خدمات متنوع ما بهره‌مند شوید</p>
+        <TheButton class="mt-4">دانلود اپلیکیشن</TheButton>
+      </div>
+      <div class="flex justify-center">
+        <img src="@/assets/images/download-on-phone.png" alt="دانلود اپلیکیشن" />
+      </div>
+    </div>
+  </HomeSectionWrapper>
+</template>
+
+<script>
+import HomeSectionWrapper from '@/components/Home/Section/index.vue'
+import TheButton from '@/components/uikit/TheButton/index.vue'
+
+export default {
+  name: 'DownloadSection',
+
+  components: { TheButton, HomeSectionWrapper }
+}
+</script>
