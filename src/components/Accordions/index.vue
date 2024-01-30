@@ -1,5 +1,5 @@
 <template>
-  <ul class="flex flex-col">
+  <ul class="flex flex-col w-full">
     <slot></slot>
   </ul>
 </template>

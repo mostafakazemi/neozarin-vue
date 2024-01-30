@@ -2,8 +2,8 @@
   <HomeSectionWrapper>
     <h2>هر روز بهتر از دیروز</h2>
     <p>با امکاناتی که در آینده خواهیم داشت آشنا شوید</p>
-    <Accordions class="w-full gap-y-6">
-      <AccordionItem class="bg-white">
+    <Accordions class="gap-y-6">
+      <AccordionItem>
         <template #header>
           <IconCard />
           <h3 class="mr-2">دریافت کارت بانکی</h3>
@@ -13,14 +13,14 @@
           دیگر از خدمات نئو زرین خواهد بود.
         </p>
       </AccordionItem>
-      <AccordionItem class="bg-white">
+      <AccordionItem>
         <template #header>
           <IconWalletCoins />
-          <h3 class="mr-2">دریافت کارت بانکی</h3>
+          <h3 class="mr-2">افتتاح حساب آنلاین</h3>
         </template>
         <p>
-          صدور زرین‌کارت با تمام ویژگی‌های کارت بانکی که به یک حساب بانکی (زرین‌حساب) متصل است یکی
-          دیگر از خدمات نئو زرین خواهد بود.
+          نئوزرین در تلاش است با فراهم کردن امکان افتتاح حساب در بانک های طرف قرارداد خود تجربه ای
+          راحت و آسان را برای شما ممکن سازد.
         </p>
       </AccordionItem>
     </Accordions>
