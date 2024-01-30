@@ -3,6 +3,7 @@
     <HeroSection />
     <FeaturesSection />
     <WhyNeozarinSection />
+    <ColleaguesSection />
   </div>
 </template>
 
@@ -10,9 +11,10 @@
 import HeroSection from '@/components/HeroSectionWrapper/index.vue'
 import FeaturesSection from '@/components/FeaturesSection/index.vue'
 import WhyNeozarinSection from '@/components/WhyNeozarinSection/index.vue'
+import ColleaguesSection from '@/components/ColleaguesSection/index.vue'
 
 export default {
   name: 'HomePage',
-  components: { WhyNeozarinSection, FeaturesSection, HeroSection }
+  components: { ColleaguesSection, WhyNeozarinSection, FeaturesSection, HeroSection }
 }
 </script>

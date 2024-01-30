@@ -1,6 +1,6 @@
 <template>
   <HomeSectionWrapper>
-    <h1 class="text-4xl font-black">
+    <h1>
       شعبه بانکداری
       <span class="text-primary">مجازی</span>
       زرین‌پال با نئوزرین

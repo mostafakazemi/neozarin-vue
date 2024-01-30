@@ -1,6 +1,6 @@
 <template>
   <HomeSectionWrapper>
-    <h2 class="font-black text-2xl">چرا نئوزرین؟</h2>
+    <h2>چرا نئوزرین؟</h2>
     <h3>هر آنچه شما لازم دارید در نئوزرین گرد هم آورده‌ایم</h3>
     <div class="py-10 w-full">
       <swiper
