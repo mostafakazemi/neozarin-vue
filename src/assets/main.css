@@ -5,12 +5,30 @@
 @tailwind components;
 @tailwind utilities;
 
-#app {
-  @apply flex flex-col min-h-screen;
+
+/* global classes */
+
+.bg-default {
+  background-color: var(--color-dim);
+}
+
+.bg-white {
+  background-color: var(--vt-c-white);
 }
 
 .text-primary {
   color: var(--color-primary);
+}
+
+
+/* global elements styles */
+
+body {
+  @apply bg-default;
+}
+
+#app {
+  @apply flex flex-col min-h-screen;
 }
 
 span {

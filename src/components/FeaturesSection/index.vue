@@ -8,25 +8,25 @@
       <ul class="grid grid-cols-2 gap-10 mt-10">
         <li>
           <div class="flex gap-x-2 items-center">
-            <IconArrowRight />
+            <IconArrow />
             <h3>امنیت پرداخت</h3>
           </div>
         </li>
         <li>
           <div class="flex gap-x-2 items-center">
-            <IconArrowRight />
+            <IconArrow />
             <h3>استفاده آسان</h3>
           </div>
         </li>
         <li>
           <div class="flex gap-x-2 items-center">
-            <IconArrowRight />
+            <IconArrow />
             <h3>پشتیبانی ۲۴ ساعته</h3>
           </div>
         </li>
         <li>
           <div class="flex gap-x-2 items-center">
-            <IconArrowRight />
+            <IconArrow />
             <h3>کاهش هزینه‌های مدیریت</h3>
           </div>
         </li>
@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import IconArrowRight from '@/components/Icons/ArrowRight/index.vue'
+import IconArrow from '@/components/Icons/Arrow/index.vue'
 import HomeSectionWrapper from '@/components/Home/Section/index.vue'
 
 export default {
@@ -44,7 +44,7 @@ export default {
 
   components: {
     HomeSectionWrapper,
-    IconArrowRight
+    IconArrow
   }
 }
 </script>

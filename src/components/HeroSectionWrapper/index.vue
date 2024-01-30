@@ -12,7 +12,7 @@
     </p>
     <TheButton class="gap-x-2">
       دانلود رایگان
-      <IconArrowRight class="rotate-180" />
+      <IconArrow />
     </TheButton>
     <img src="@/assets/images/1.png" alt="نئوزرین" />
   </HomeSectionWrapper>
@@ -20,11 +20,11 @@
 
 <script>
 import TheButton from '@/components/uikit/TheButton/index.vue'
-import IconArrowRight from '@/components/Icons/ArrowRight/index.vue'
+import IconArrow from '@/components/Icons/Arrow/index.vue'
 import HomeSectionWrapper from '@/components/Home/Section/index.vue'
 
 export default {
   name: 'HeroSection',
-  components: { HomeSectionWrapper, IconArrowRight, TheButton }
+  components: { HomeSectionWrapper, IconArrow, TheButton }
 }
 </script>

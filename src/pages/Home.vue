@@ -4,6 +4,7 @@
     <FeaturesSection />
     <WhyNeozarinSection />
     <ColleaguesSection />
+    <ComingSoonFeaturesSection />
   </div>
 </template>
 
@@ -12,9 +13,16 @@ import HeroSection from '@/components/HeroSectionWrapper/index.vue'
 import FeaturesSection from '@/components/FeaturesSection/index.vue'
 import WhyNeozarinSection from '@/components/WhyNeozarinSection/index.vue'
 import ColleaguesSection from '@/components/ColleaguesSection/index.vue'
+import ComingSoonFeaturesSection from '@/components/ComingSoonFeaturesSection/index.vue'
 
 export default {
   name: 'HomePage',
-  components: { ColleaguesSection, WhyNeozarinSection, FeaturesSection, HeroSection }
+  components: {
+    ComingSoonFeaturesSection,
+    ColleaguesSection,
+    WhyNeozarinSection,
+    FeaturesSection,
+    HeroSection
+  }
 }
 </script>

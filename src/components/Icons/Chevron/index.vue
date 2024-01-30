@@ -2,16 +2,23 @@
   <svg
     :width="size"
     :height="size"
-    viewBox="0 0 16 16"
+    viewBox="0 0 24 25"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
-    <path d="M8 0L6.59 1.41L12.17 7H0V9H12.17L6.59 14.59L8 16L16 8L8 0Z" fill="currentColor" />
+    <path
+      id="Vector"
+      d="M18 9.0625L12 15.0625L6 9.0625"
+      stroke="currentColor"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
   </svg>
 </template>
 <script>
 export default {
-  name: 'IconArrowRight',
+  name: 'IconChevron',
 
   props: {
     size: {
