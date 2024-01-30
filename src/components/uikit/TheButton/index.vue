@@ -25,5 +25,9 @@ button {
     background-color: var(--color-primary);
     color: var(--vt-c-white);
   }
+
+  &.white {
+    background-color: var(--vt-c-white);
+  }
 }
 </style>

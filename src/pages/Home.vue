@@ -18,10 +18,12 @@ import ColleaguesSection from '@/components/ColleaguesSection/index.vue'
 import ComingSoonFeaturesSection from '@/components/ComingSoonFeaturesSection/index.vue'
 import FaqSection from '@/components/FaqSection/index.vue'
 import DownloadSection from '@/components/DownloadSection/index.vue'
+import SupportSection from '@/components/SupportSection/index.vue'
 
 export default {
   name: 'HomePage',
   components: {
+    SupportSection,
     DownloadSection,
     FaqSection,
     ComingSoonFeaturesSection,

@@ -1,19 +1,16 @@
 <template>
-  <footer>
-    <div>this is footer</div>
+  <footer class="bg-white py-20 px-6 flex flex-col gap-y-6">
+    <SupportSection />
+    <CertificateSection class="border-b py-6" />
   </footer>
 </template>
 
 <script>
+import SupportSection from '@/components/SupportSection/index.vue'
+import CertificateSection from '@/components/CertificateSection/index.vue'
+
 export default {
-  name: 'TheHeader'
+  name: 'TheHeader',
+  components: { CertificateSection, SupportSection }
 }
 </script>
-
-<style scoped>
-footer {
-  color: red;
-  height: 50px;
-  background-color: blue;
-}
-</style>

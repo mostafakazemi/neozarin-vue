@@ -1,4 +1,5 @@
 :root {
   --color-primary: rgba(59, 104, 255, 100);
-  --color-dim: rgba(249, 249, 251, 1);
+  --color-cont-dim: rgba(249, 249, 251, 1);
+  --color-cont-dim-hover: rgba(241, 241, 243, 1);
 }

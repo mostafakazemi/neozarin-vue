@@ -9,7 +9,7 @@
 /* global classes */
 
 .bg-default {
-  background-color: var(--color-dim);
+  background-color: var(--color-cont-dim);
 }
 
 .bg-white {
