@@ -1,10 +1,9 @@
 <template>
   <section class="flex">
     <div class="flex items-center gap-x-1">
-      <IconLogo />
-      <span>نئوزرین</span>
+      <img src="@/assets/images/neozarin_logo.svg" alt="نئوزرین" width="100" height="22" />
     </div>
-    <div class="mr-auto flex gap-x-5">
+    <div class="mr-auto flex gap-x-5 text-xl">
       <IconLinkedin />
       <IconTwitter />
       <IconInstagram />
