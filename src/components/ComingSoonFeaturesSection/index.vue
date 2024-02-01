@@ -1,12 +1,14 @@
 <template>
-  <HomeSectionWrapper class="text-center">
+  <HomeSectionWrapper>
     <div class="flex flex-col items-center gap-y-5">
-      <h2>هر روز بهتر از دیروز</h2>
-      <p>با امکاناتی که در آینده خواهیم داشت آشنا شوید</p>
+      <h2 class="text-center">هر روز بهتر از دیروز</h2>
+      <p class="text-center">با امکاناتی که در آینده خواهیم داشت آشنا شوید</p>
       <Accordions class="gap-y-6">
         <AccordionItem>
           <template #header>
-            <IconCard />
+            <div class="icon-wrapper">
+              <IconCard />
+            </div>
             <h3 class="mr-2">دریافت کارت بانکی</h3>
           </template>
           <p>
@@ -16,7 +18,9 @@
         </AccordionItem>
         <AccordionItem>
           <template #header>
-            <IconWalletCoins />
+            <div class="icon-wrapper">
+              <IconWalletCoins />
+            </div>
             <h3 class="mr-2">افتتاح حساب آنلاین</h3>
           </template>
           <p>
@@ -50,3 +54,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.icon-wrapper {
+  @apply text-2xl bg-cont-dim p-2 rounded-xl;
+}
+</style>

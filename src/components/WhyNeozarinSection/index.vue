@@ -3,7 +3,7 @@
     <HomeSectionWrapper class="text-center">
       <div class="flex flex-col items-center gap-y-5">
         <h2>چرا نئوزرین؟</h2>
-        <h3>هر آنچه شما لازم دارید در نئوزرین گرد هم آورده‌ایم</h3>
+        <p>هر آنچه شما لازم دارید در نئوزرین گرد هم آورده‌ایم</p>
       </div>
     </HomeSectionWrapper>
     <div class="pt-12 w-full">

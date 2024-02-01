@@ -3,9 +3,11 @@
     <div @click="toggleExpanded()" class="p-4 w-full flex cursor-pointer items-center">
       <slot name="header" />
       <div class="mr-auto">
-        <div :class="{ 'rotate-180': isExpanded }">
+        <div class="transition" :class="{ 'rotate-180': isExpanded }">
           <slot name="handler">
-            <IconChevron />
+            <div class="handler-wrapper">
+              <IconChevron />
+            </div>
           </slot>
         </div>
       </div>
@@ -34,3 +36,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.handler-wrapper {
+  @apply text-2xl bg-cont-dim p-2 rounded-xl;
+}
+</style>
