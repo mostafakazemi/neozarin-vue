@@ -1,6 +1,6 @@
 <template>
   <TheHeader />
-  <main class="flex-grow flex flex-col items-center pt-32">
+  <main class="flex-grow flex flex-col items-center py-32">
     <div class="w-full">
       <router-view></router-view>
     </div>

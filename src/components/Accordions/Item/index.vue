@@ -1,5 +1,5 @@
 <template>
-  <li class="border w-full bg-white">
+  <li class="rounded-xl w-full bg-white">
     <div @click="toggleExpanded()" class="p-4 w-full flex cursor-pointer items-center">
       <slot name="header" />
       <div class="mr-auto">
