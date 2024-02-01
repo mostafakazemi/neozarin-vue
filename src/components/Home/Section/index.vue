@@ -1,5 +1,5 @@
 <template>
-  <section class="flex justify-center">
+  <section class="flex justify-center px-6">
     <div class="max-w-screen-lg">
       <slot />
     </div>

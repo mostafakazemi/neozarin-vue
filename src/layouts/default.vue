@@ -20,6 +20,6 @@ export default {
 
 <style scoped>
 main {
-  background-color: var(--color-cont-dim);
+  @apply bg-cont-dim;
 }
 </style>
