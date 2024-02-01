@@ -1,7 +1,9 @@
 <template>
-  <HomeSectionWrapper>
-    <h2>چرا نئوزرین؟</h2>
-    <h3>هر آنچه شما لازم دارید در نئوزرین گرد هم آورده‌ایم</h3>
+  <HomeSectionWrapper class="text-center">
+    <div class="flex flex-col items-center gap-y-5">
+      <h2>چرا نئوزرین؟</h2>
+      <h3>هر آنچه شما لازم دارید در نئوزرین گرد هم آورده‌ایم</h3>
+    </div>
   </HomeSectionWrapper>
   <div class="py-10 w-full">
     <swiper

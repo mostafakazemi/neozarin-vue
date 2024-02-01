@@ -50,7 +50,7 @@ import IconArrow from '@/components/Icons/Arrow/index.vue'
 import HomeSectionWrapper from '@/components/Home/Section/index.vue'
 import IconShieldCheckmark from '@/components/Icons/ShieldCheckmark/index.vue'
 import IconHandCard from '@/components/Icons/HandCard/index.vue'
-import IconSupport24 from '@/components/Icons/ShieldCheckmark/index.vue'
+import IconSupport24 from '@/components/Icons/Support24/index.vue'
 import IconTimeCoins from '@/components/Icons/TimeCoins/index.vue'
 
 export default {
@@ -69,7 +69,7 @@ export default {
 
 <style scoped>
 li {
-  @apply font-black text-sm md:text-base lg:text-lg rounded-xl p-8;
+  @apply rounded-xl p-8;
 
   .icon-wrapper {
     @apply text-2xl bg-cont-dim p-2 rounded-xl;

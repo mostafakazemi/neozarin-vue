@@ -7,16 +7,28 @@
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      d="M16.6667 20L19.1667 22.5L24.1667 17.5"
+      d="M12.7217 17.8767C12.7217 16.52 13.8217 15.42 15.1783 15.42C16.535 15.42 17.635 16.52 17.635 17.8767C17.635 20.9467 12.7217 20.9467 12.7217 24.5833H17.635"
       stroke="currentColor"
       stroke-width="2.5"
       stroke-linecap="round"
       stroke-linejoin="round"
     />
     <path
-      fill-rule="evenodd"
-      clip-rule="evenodd"
-      d="M5.83333 17.945C5.83334 25.3209 10.412 31.9219 17.3205 34.5059L17.3706 34.5247C19.0664 35.159 20.9345 35.1584 22.63 34.523L22.6706 34.5078C29.5853 31.9164 34.1667 25.307 34.1667 17.9227V11.7171C34.1667 10.2589 33.2189 8.97003 31.8271 8.5353L20.9938 5.15159C20.3467 4.94947 19.6533 4.94947 19.0062 5.15159L8.1729 8.5352C6.78107 8.96992 5.83333 10.2588 5.83333 11.717V17.945Z"
+      d="M25.8867 24.5833C25.8867 24.5833 25.8867 23.1267 25.8867 22.4917H27.2783H25.8867H21.9467C21.24 22.4917 20.795 21.7317 21.15 21.12C22.135 19.425 23.275 17.5067 24.32 15.8167C24.7683 15.09 25.8867 15.4167 25.8867 16.27V22.4917"
+      stroke="currentColor"
+      stroke-width="2.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M34.04 8.005V12.8267H29.2183H34.04"
+      stroke="currentColor"
+      stroke-width="2.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M33.175 12.8267C30.6317 8.165 25.6867 5 20 5C11.715 5 5 11.7167 5 20C5 28.2833 11.715 35 20 35C28.285 35 35 28.2833 35 20"
       stroke="currentColor"
       stroke-width="2.5"
       stroke-linecap="round"
@@ -26,7 +38,7 @@
 </template>
 <script>
 export default {
-  name: 'IconShieldCheckmark',
+  name: 'IconSupport24',
 
   props: {
     size: {
