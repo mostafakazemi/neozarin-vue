@@ -1,6 +1,6 @@
 <template>
   <header class="flex border-b">
-    <div class="mx-auto w-full max-w-screen-xl py-3 px-4 flex justify-between">
+    <div class="mx-auto w-full max-w-screen-2xl py-3 px-4 flex justify-between">
       <div>
         <img src="@/assets/images/neozarin_logo.svg" alt="نئوزرین" />
       </div>

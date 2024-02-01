@@ -1,5 +1,5 @@
 <template>
-  <button class="flex items-center" :class="[variant]">
+  <button class="flex items-center" :class="[variant, size]">
     <slot />
   </button>
 </template>
@@ -12,6 +12,13 @@ export default {
     variant: {
       type: String,
       default: 'primary'
+    },
+    size: {
+      type: String,
+      default: 'md',
+      validator(value) {
+        return ['lg', 'md', 'sm'].includes(value)
+      }
     }
   }
 }
@@ -19,7 +26,15 @@ export default {
 
 <style scoped>
 button {
-  @apply font-bold py-2 px-4 rounded-full;
+  @apply font-bold rounded-full;
+
+  &.lg {
+    @apply h-16 px-10;
+  }
+
+  &.md {
+    @apply py-2 px-4;
+  }
 
   &.primary {
     background-color: var(--color-primary);

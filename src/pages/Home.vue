@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import HeroSection from '@/components/HeroSectionWrapper/index.vue'
+import HeroSection from '@/components/HeroSection/index.vue'
 import FeaturesSection from '@/components/FeaturesSection/index.vue'
 import WhyNeozarinSection from '@/components/WhyNeozarinSection/index.vue'
 import ColleaguesSection from '@/components/ColleaguesSection/index.vue'
