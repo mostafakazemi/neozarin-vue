@@ -1,36 +1,74 @@
 <template>
-  <HomeSectionWrapper class="text-center">
-    <div class="flex flex-col items-center gap-y-5">
-      <h2>چرا نئوزرین؟</h2>
-      <h3>هر آنچه شما لازم دارید در نئوزرین گرد هم آورده‌ایم</h3>
+  <div>
+    <HomeSectionWrapper class="text-center">
+      <div class="flex flex-col items-center gap-y-5">
+        <h2>چرا نئوزرین؟</h2>
+        <h3>هر آنچه شما لازم دارید در نئوزرین گرد هم آورده‌ایم</h3>
+      </div>
+    </HomeSectionWrapper>
+    <div class="pt-12 w-full">
+      <swiper
+        dir="rtl"
+        :slides-per-view="2.000001"
+        :space-between="24"
+        pagination
+        :modules="modules"
+        loop
+        :autoplay="{
+          delay: 2500
+        }"
+        centered-slides
+      >
+        <swiper-slide>
+          <WhyNeozarinSectionItem title="واریز وجه با شناسه پرداخت">
+            <template #image>
+              <img
+                src="@/assets/images/carousel/carousel-image-1.svg"
+                alt="واریز وجه با شناسه پرداخت"
+              />
+            </template>
+            <template #title>واریز وجه با شناسه پرداخت</template>
+            <p>
+              شناسه پرداخت کدی منحصر به فرد است که امکان دسته‌بندی، رهگیری و مدیریت آسان انتقالات را
+              برای شما فراهم میسازد. پس از انجام هر تراکنش با شناسه پرداخت، مبلغ واریزی در عرض یک
+              دقیق با حساب متصل شده‌ی شما تسویه خواهد شد.
+            </p>
+          </WhyNeozarinSectionItem>
+        </swiper-slide>
+        <swiper-slide>
+          <WhyNeozarinSectionItem title="واریز وجه با شناسه پرداخت">
+            <template #image>
+              <img
+                src="@/assets/images/carousel/carousel-image-2.svg"
+                alt="واریز وجه با شناسه پرداخت"
+              />
+            </template>
+            <template #title>واریز وجه با شناسه پرداخت</template>
+            <p>
+              شناسه پرداخت کدی منحصر به فرد است که امکان دسته‌بندی، رهگیری و مدیریت آسان انتقالات را
+              برای شما فراهم میسازد. پس از انجام هر تراکنش با شناسه پرداخت، مبلغ واریزی در عرض یک
+              دقیق با حساب متصل شده‌ی شما تسویه خواهد شد.
+            </p>
+          </WhyNeozarinSectionItem>
+        </swiper-slide>
+        <swiper-slide>
+          <WhyNeozarinSectionItem title="واریز وجه با شناسه پرداخت">
+            <template #image>
+              <img
+                src="@/assets/images/carousel/carousel-image-3.svg"
+                alt="واریز وجه با شناسه پرداخت"
+              />
+            </template>
+            <template #title>واریز وجه با شناسه پرداخت</template>
+            <p>
+              شناسه پرداخت کدی منحصر به فرد است که امکان دسته‌بندی، رهگیری و مدیریت آسان انتقالات را
+              برای شما فراهم میسازد. پس از انجام هر تراکنش با شناسه پرداخت، مبلغ واریزی در عرض یک
+              دقیق با حساب متصل شده‌ی شما تسویه خواهد شد.
+            </p>
+          </WhyNeozarinSectionItem>
+        </swiper-slide>
+      </swiper>
     </div>
-  </HomeSectionWrapper>
-  <div class="py-10 w-full">
-    <swiper
-      dir="rtl"
-      :slides-per-view="2.2"
-      :space-between="25"
-      pagination
-      :modules="modules"
-      loop
-      :autoplay="{
-        delay: 2500
-      }"
-      centered-slides
-    >
-      <swiper-slide>
-        <WhyNeozarinSectionItem />
-      </swiper-slide>
-      <swiper-slide>
-        <WhyNeozarinSectionItem />
-      </swiper-slide>
-      <swiper-slide>
-        <WhyNeozarinSectionItem />
-      </swiper-slide>
-      <swiper-slide>
-        <WhyNeozarinSectionItem />
-      </swiper-slide>
-    </swiper>
   </div>
 </template>
 

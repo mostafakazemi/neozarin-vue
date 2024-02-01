@@ -1,15 +1,15 @@
 <template>
-  <div class="grid grid-cols-3 gap-x-5 border p-5 items-center">
-    <div class="col-span-1">
-      <img src="@/assets/images/2.png" alt="واریز وجه با شناسه پرداخت" />
+  <div
+    class="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-3 gap-10 p-10 items-center bg-white rounded-xl"
+  >
+    <div class="col-span-1 md:col-span-2 lg:col-span-1">
+      <slot name="image" />
     </div>
-    <div class="col-span-2">
-      <h3>واریز وجه با شناسه پرداخت</h3>
-      <p>
-        شناسه پرداخت کدی منحصر به فرد است که امکان دسته‌بندی، رهگیری و مدیریت آسان انتقالات را برای
-        شما فراهم میسازد. پس از انجام هر تراکنش با شناسه پرداخت، مبلغ واریزی در عرض یک دقیق با حساب
-        متصل شده‌ی شما تسویه خواهد شد.
-      </p>
+    <div
+      class="col-span-1 md:col-span-3 lg:col-span-2 lg:col-span-2 flex flex-col gap-10 text-center md:text-right"
+    >
+      <h3><slot name="title" /></h3>
+      <slot />
     </div>
   </div>
 </template>
