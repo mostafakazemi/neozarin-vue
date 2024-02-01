@@ -1,6 +1,8 @@
 <template>
-  <HomeSectionWrapper class="w-full">
-    <div class="flex flex-col w-full items-center md:flex-row md:justify-between gap-y-6">
+  <div class="bg-white py-20 px-14">
+    <div
+      class="flex flex-col w-full items-center md:flex-row md:justify-between gap-y-6 bg-cont-dim rounded-xl p-8"
+    >
       <div class="flex flex-col gap-y-6 md:items-start">
         <h2>پشتیبانی ۲۴ ساعته، ۷ روز هفته</h2>
         <p>
@@ -13,13 +15,13 @@
         </p>
       </div>
       <div>
-        <TheButton variant="" class="gap-x-2">
+        <TheButton size="lg" variant="white" class="gap-x-2">
           درخواست پشتیبانی
           <IconArrow />
         </TheButton>
       </div>
     </div>
-  </HomeSectionWrapper>
+  </div>
 </template>
 
 <script>
