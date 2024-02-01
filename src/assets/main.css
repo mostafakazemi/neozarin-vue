@@ -34,7 +34,8 @@ span {
 }
 
 h1 {
-  @apply font-black text-4xl;
+  @apply font-black text-6xl;
+  font-weight: bold;
 }
 
 h2 {
