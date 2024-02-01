@@ -8,10 +8,6 @@
 
 /* global classes */
 
-.bg-default {
-  background-color: var(--color-cont-dim);
-}
-
 .bg-white {
   background-color: var(--vt-c-white);
 }
@@ -22,10 +18,6 @@
 
 
 /* global elements styles */
-
-body {
-  @apply bg-default;
-}
 
 #app {
   @apply flex flex-col min-h-screen;

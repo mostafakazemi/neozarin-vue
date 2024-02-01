@@ -17,3 +17,9 @@ export default {
   components: { TheFooter, TheHeader }
 }
 </script>
+
+<style scoped>
+main {
+  background-color: var(--color-cont-dim);
+}
+</style>

@@ -4,7 +4,7 @@
       <div>
         <img src="@/assets/images/neozarin_logo.svg" alt="نئوزرین" />
       </div>
-      <div class="flex gap-x-2">
+      <div class="flex gap-x-5">
         <button class="font-bold" :class="{ 'hidden lg:block': !isInDownloadPage }">
           راه‌های ارتباطی
         </button>
