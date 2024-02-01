@@ -2,34 +2,34 @@
   <HomeSectionWrapper>
     <h2>چرا نئوزرین؟</h2>
     <h3>هر آنچه شما لازم دارید در نئوزرین گرد هم آورده‌ایم</h3>
-    <div class="py-10 w-full">
-      <swiper
-        dir="rtl"
-        :slides-per-view="2.2"
-        :space-between="25"
-        pagination
-        :modules="modules"
-        loop
-        :autoplay="{
-          delay: 2500
-        }"
-        centered-slides
-      >
-        <swiper-slide>
-          <WhyNeozarinSectionItem />
-        </swiper-slide>
-        <swiper-slide>
-          <WhyNeozarinSectionItem />
-        </swiper-slide>
-        <swiper-slide>
-          <WhyNeozarinSectionItem />
-        </swiper-slide>
-        <swiper-slide>
-          <WhyNeozarinSectionItem />
-        </swiper-slide>
-      </swiper>
-    </div>
   </HomeSectionWrapper>
+  <div class="py-10 w-full">
+    <swiper
+      dir="rtl"
+      :slides-per-view="2.2"
+      :space-between="25"
+      pagination
+      :modules="modules"
+      loop
+      :autoplay="{
+        delay: 2500
+      }"
+      centered-slides
+    >
+      <swiper-slide>
+        <WhyNeozarinSectionItem />
+      </swiper-slide>
+      <swiper-slide>
+        <WhyNeozarinSectionItem />
+      </swiper-slide>
+      <swiper-slide>
+        <WhyNeozarinSectionItem />
+      </swiper-slide>
+      <swiper-slide>
+        <WhyNeozarinSectionItem />
+      </swiper-slide>
+    </swiper>
+  </div>
 </template>
 
 <script>
