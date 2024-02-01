@@ -1,6 +1,6 @@
 <template>
   <HomeSectionWrapper>
-    <div class="flex gap-x-10">
+    <div class="flex justify-center gap-x-10">
       <div>
         <img src="@/assets/images/enamad.png" alt="اینماد" />
       </div>

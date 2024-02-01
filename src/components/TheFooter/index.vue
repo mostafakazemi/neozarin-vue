@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-white py-20 px-6 flex flex-col gap-y-6">
+  <footer class="bg-white pb-20 px-6 flex flex-col gap-y-6">
     <CertificateSection class="border-b py-6" />
     <SocialSection />
     <CopyrightSection />
