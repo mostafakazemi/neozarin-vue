@@ -1,6 +1,6 @@
 <template>
   <HomeSectionWrapper>
-    <div class="bg-white rounded-xl p-10 flex flex-col gap-y-10">
+    <div class="bg-white rounded-xl p-10 flex flex-col gap-y-10 h-full">
       <InfoSectionItem>
         <template #icon><IconEmail /></template>
         <template #title>ایمیل</template>
@@ -23,6 +23,13 @@
         <br />
         کد پستی: ۱۴۳۱۹۶۵۳۷۱
       </InfoSectionItem>
+
+      <div class="flex justify-end">
+        <button class="text-primary flex items-center gap-2">
+          مشاهده روی نقشه
+          <IconArrowFilled size="24" />
+        </button>
+      </div>
     </div>
   </HomeSectionWrapper>
 </template>
@@ -34,10 +41,12 @@ import IconEmail from '@/components/Icons/Email/index.vue'
 import InfoSectionItem from '@/components/Contact/InfoSection/Item/index.vue'
 import IconTimeProfile from '@/components/Icons/TimeProfile/index.vue'
 import IconMarker from '@/components/Icons/Marker/index.vue'
+import IconArrowFilled from '@/components/Icons/ArrowFilled/index.vue'
 
 export default {
   name: 'ContactInfoSection',
   components: {
+    IconArrowFilled,
     IconMarker,
     IconTimeProfile,
     InfoSectionItem,

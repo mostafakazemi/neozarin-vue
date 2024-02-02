@@ -1,8 +1,10 @@
 <template>
   <div class="flex flex-col gap-y-32">
     <ContactHeroSection />
-    <ContactTicketSection />
-    <ContactInfoSection />
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-1">
+      <ContactTicketSection class="h-full" />
+      <ContactInfoSection class="h-full" />
+    </div>
   </div>
 </template>
 

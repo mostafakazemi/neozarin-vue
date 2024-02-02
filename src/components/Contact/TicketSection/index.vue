@@ -1,6 +1,6 @@
 <template>
   <HomeSectionWrapper>
-    <div class="flex flex-col gap-y-5 bg-white p-10">
+    <div class="flex flex-col gap-y-5 bg-white p-10 h-full">
       <div class="flex gap-5">
         <div>
           <div class="text-2xl bg-cont-dim p-2 rounded-xl">
