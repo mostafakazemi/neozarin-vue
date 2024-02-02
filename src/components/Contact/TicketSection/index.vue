@@ -31,7 +31,7 @@ import IconTicket from '@/components/Icons/Ticket/index.vue'
 import TheButton from '@/components/uikit/TheButton/index.vue'
 
 export default {
-  name: 'TicketSection',
+  name: 'ContactTicketSection',
   components: { TheButton, IconTicket, HomeSectionWrapper }
 }
 </script>
