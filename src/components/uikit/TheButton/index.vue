@@ -1,5 +1,5 @@
 <template>
-  <button class="flex items-center" :class="[variant, size]">
+  <button :type="type" class="flex items-center" :class="[variant, size]">
     <slot />
   </button>
 </template>
@@ -9,6 +9,13 @@ export default {
   name: 'TheButton',
 
   props: {
+    type: {
+      type: String,
+      default: 'button',
+      validator(value) {
+        return ['button', 'submit', 'reset'].includes(value)
+      }
+    },
     variant: {
       type: String,
       default: 'primary'

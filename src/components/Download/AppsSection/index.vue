@@ -16,7 +16,8 @@
             <img src="@/assets/images/app-store.svg" alt="اپ استور" />
           </button>
         </div>
-        <p>یا از طریق شماره همراه خود لینک دانلود مستقیم را دریافت کنید</p>
+        <p class="mt-5">یا از طریق شماره همراه خود لینک دانلود مستقیم را دریافت کنید</p>
+        <MobileForm />
       </div>
       <div>
         <img src="@/assets/images/phones-group.svg" alt="دانلود اپلیکیشن" />
@@ -27,11 +28,13 @@
 
 <script>
 import HomeSectionWrapper from '@/components/Home/Section/index.vue'
+import MobileForm from '@/components/MobileForm/index.vue'
 
 export default {
   name: 'AppsSection',
 
   components: {
+    MobileForm,
     HomeSectionWrapper
   }
 }
