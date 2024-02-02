@@ -13,7 +13,7 @@
       </p>
       <div class="flex justify-center">
         <TheButton class="gap-x-2" size="lg">
-          دانلود رایگان
+          <router-link :to="{ name: 'download' }"> دانلود رایگان </router-link>
           <IconArrow size="24" />
         </TheButton>
       </div>

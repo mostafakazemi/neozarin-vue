@@ -4,7 +4,9 @@
       <div class="flex flex-col items-center gap-y-6 p-10 md:items-start">
         <h2>به خانواده‌ی نئو زرین بپیوندید</h2>
         <p>با دانلود اپلیکیشن نئوزرین از خدمات متنوع ما بهره‌مند شوید</p>
-        <TheButton size="lg" class="mt-4">دانلود اپلیکیشن</TheButton>
+        <TheButton size="lg" class="mt-4">
+          <router-link :to="{ name: 'download' }"> دانلود اپلیکیشن </router-link>
+        </TheButton>
       </div>
       <div class="flex justify-center">
         <img src="@/assets/images/phone-in-hand.png" alt="دانلود اپلیکیشن" />
