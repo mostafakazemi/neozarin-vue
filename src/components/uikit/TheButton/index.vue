@@ -26,7 +26,7 @@ export default {
 
 <style scoped>
 button {
-  @apply font-bold rounded-full;
+  @apply rounded-full;
 
   &.lg {
     @apply h-16 px-10;

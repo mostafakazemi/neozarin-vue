@@ -14,7 +14,7 @@
       <div class="flex justify-center">
         <TheButton class="gap-x-2" size="lg">
           دانلود رایگان
-          <IconArrow />
+          <IconArrow size="24" />
         </TheButton>
       </div>
       <div class="mt-16 flex justify-center">
