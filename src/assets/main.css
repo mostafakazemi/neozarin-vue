@@ -13,6 +13,10 @@ body {
   font-size: 16px;
 }
 
+input, textarea {
+  @apply outline-none;
+}
+
 #app {
   @apply flex flex-col min-h-screen;
 }
