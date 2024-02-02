@@ -4,6 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
+        primary: 'rgba(59, 104, 255, 100)',
+        white: 'rgba(255,255,255,1)',
         'cont-dim': 'rgba(249, 249, 251, 1)'
       },
       screens: {

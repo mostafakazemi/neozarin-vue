@@ -1,11 +1,15 @@
 <template>
-  <div class="about">
-    <h1>contact</h1>
+  <div class="flex flex-col gap-y-32">
+    <ContactHeroSection />
   </div>
 </template>
 
 <script>
+import ContactHeroSection from '@/components/Contact/HeroSection/index.vue'
+
 export default {
-  name: 'ContactPage'
+  name: 'ContactPage',
+
+  components: { ContactHeroSection }
 }
 </script>

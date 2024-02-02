@@ -6,18 +6,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-/* global classes */
-
-.bg-white {
-  background-color: var(--vt-c-white);
-}
-
-.text-primary {
-  color: var(--color-primary);
-}
-
-
 /* global elements styles */
 
 body {
