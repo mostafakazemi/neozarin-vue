@@ -44,12 +44,11 @@ button {
   }
 
   &.primary {
-    background-color: var(--color-primary);
-    color: var(--vt-c-white);
+    @apply bg-primary text-white;
   }
 
   &.white {
-    background-color: var(--vt-c-white);
+    @apply bg-white;
   }
 }
 </style>
