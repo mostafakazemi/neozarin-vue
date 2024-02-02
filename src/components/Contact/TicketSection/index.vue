@@ -1,5 +1,5 @@
 <template>
-  <HomeSectionWrapper>
+  <div>
     <div class="flex flex-col gap-y-5 bg-white p-10 h-full">
       <div class="flex gap-5">
         <div>
@@ -22,7 +22,7 @@
         </div>
       </form>
     </div>
-  </HomeSectionWrapper>
+  </div>
 </template>
 
 <script>

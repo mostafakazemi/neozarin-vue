@@ -1,5 +1,5 @@
 <template>
-  <HomeSectionWrapper>
+  <div>
     <div class="bg-white rounded-xl p-10 flex flex-col gap-y-10 h-full">
       <InfoSectionItem>
         <template #icon><IconEmail /></template>
@@ -31,7 +31,7 @@
         </button>
       </div>
     </div>
-  </HomeSectionWrapper>
+  </div>
 </template>
 
 <script>
