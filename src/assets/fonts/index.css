@@ -21,3 +21,11 @@
   font-display: swap;
   src: url('./shabnam/shabnam-light.woff') format('woff');
 }
+
+@font-face {
+  font-family: 'Yekan';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./yekan/yekan.woff') format('woff');
+}

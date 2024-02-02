@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'cont-dim': 'yellow'
+        'cont-dim': 'rgba(249, 249, 251, 1)'
       },
       screens: {
         lg: '920px'
