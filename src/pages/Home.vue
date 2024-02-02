@@ -7,7 +7,6 @@
     <ComingSoonFeaturesSection />
     <FaqSection />
     <DownloadSection />
-    <SupportSection />
   </div>
 </template>
 
